@@ -1,0 +1,22 @@
+{
+    "pages": [
+        {
+            "name": "Track",
+            "fields": [
+                {"label": "RPM", "key": "rpm", "pos": [10,10], "size": 48, "color": "lime"},
+                {"label": "OilP", "key": "oil_pressure", "pos": [10,90], "size": 36, "color": "yellow"},
+                {"label": "Boost", "key": "boost", "pos": [220,90], "size": 36, "color": "cyan"},
+                {"label": "Lap", "key": "lap_time", "pos": [10,160], "size": 36, "color": "white"}
+            ]
+        },
+        {
+            "name": "Street",
+            "fields": [
+                {"label": "Speed", "key": "speed", "pos": [10,10], "size": 48, "color": "white"},
+                {"label": "Water", "key": "water_temp", "pos": [10,90], "size": 36, "color": "blue"},
+                {"label": "Battery", "key": "battery", "pos": [220,90], "size": 36, "color": "orange"},
+                {"label": "Lambda", "key": "lambda", "pos": [10,160], "size": 36, "color": "green"}
+            ]
+        }
+    ]
+}
